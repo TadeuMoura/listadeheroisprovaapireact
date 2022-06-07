@@ -1,6 +1,6 @@
-import 'dotenv'
+import 'dotenv/config'
 
-import controller from './controller/heroController'
+import controller from './controller/heroController.js'
 import express from 'express'
 import cors from 'cors'
 
